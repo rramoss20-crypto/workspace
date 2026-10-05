@@ -15,14 +15,14 @@ public class Tema3Ejercicio12 {
      */
     public static void main(String[] args) {
         int x;
-        x = 11;
+        x = 11;//Introduzco la variable "x"
         do {
-            x++;
+            x++;//Le sumo 1 a la x y si es par lo imprimo
             if (0 == x % 2){
                 System.out.println(x);
             }
             
-        }while(x<133);
+        }while(x<133);// El bucle acaba cuando x = 133
             
         
     }

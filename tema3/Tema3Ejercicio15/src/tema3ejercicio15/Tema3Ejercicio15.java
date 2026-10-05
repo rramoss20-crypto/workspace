@@ -16,13 +16,13 @@ public class Tema3Ejercicio15 {
     public static void main(String[] args) {
         int factor;
         int factorvariable;
-        factorvariable=0;
+        factorvariable=0;//Introduzco variables
         
         Scanner entrada = new Scanner(System.in);
-        System.out.println("Escribe un número");
+        System.out.println("Escribe un número");//Pido un número al usuario
         factor=entrada.nextInt();
         
-        do{
+        do{// Multiplico el numero por todos los números del 0 al 10
             System.out.println(factor+"*"+factorvariable+"="+(factor*factorvariable));
             factorvariable++;
         }while (factorvariable<11);

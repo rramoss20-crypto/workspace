@@ -15,16 +15,16 @@ public class Tema3Ejercicio17 {
      */
     @SuppressWarnings("empty-statement")
     public static void main(String[] args) {
-        double x,raiz;
+        double x,raiz;//Introduzco las variables
         Scanner entrada = new Scanner(System.in);
         do {
-            System.out.println("Introduce un numero:");
+            System.out.println("Introduce un numero:");//Pido un número
             x=entrada.nextInt();
-            if (x>0){
+            if (x>0){//Si el número es positivo hacemos raíz cuadrada
                 raiz= Math.sqrt(x);
                 System.out.println("La raiz de "+x+" es "+raiz);
-            }else{ 
-                System.out.println("El numero introducido no es valido"); 
+            }else{ //Si el número es negativo , se lo indicamos al usuario y le pedimos otro
+                System.out.println("El numero introducido no es valido, introduzca otro:"); 
             }  
     }while (x<1);   
 }

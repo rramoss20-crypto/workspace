@@ -15,11 +15,11 @@ public class Tema3Ejercicio14 {
      */
     public static void main(String[] args) {
         int x;
-        x=0;
+        x=0;//Introduzco la variable "x"
         
-        while (x<201){
+        while (x<201){//Mientras x<201 se le aumentará en 1 el valor 
             x++;
-            if (x%2 == 0)
+            if (x%2 == 0)//Se imprimirá si es par , asi conseguiremos 100 números pares
                 System.out.println(x);
         }
     }

@@ -15,13 +15,13 @@ public class Tema3Ejercicio16 {
      */
     public static void main(String[] args) {
         int x;
-        int n;
+        int n;//Introduzco variables
         
         n=0;
-        x=20;
-        while (x<100){
-            x++;
-            if (x%2 != 0) {
+        x=20;// Les asigno un valor
+        while (x<101){// El bucle se iniciará cuando x sea menor que 101
+            x++;//Sumo 1 al valor de la x
+            if (x%2 != 0) {//Si es impar lo imprimo y sumo uno al total de impares
                 System.out.println(x);
                 n++;
             }

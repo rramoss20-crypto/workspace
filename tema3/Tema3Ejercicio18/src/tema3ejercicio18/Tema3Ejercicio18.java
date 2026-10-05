@@ -15,21 +15,21 @@ public class Tema3Ejercicio18 {
      */
     public static void main(String[] args) {
         int contraseña=123;
-        int respuesta,n = 0;
+        int respuesta,n = 0;//Introduzco las variables
         
         Scanner entrada = new Scanner(System.in);
         
         do{
             System.out.println("Introduce la contraseña:");
-            respuesta=entrada.nextInt();
+            respuesta=entrada.nextInt();// Pido la contraseña
             
             if (contraseña != respuesta){
-                System.out.println("La contraseña es incorrecta");
+                System.out.println("La contraseña es incorrecta");// Si es incorrecta se suma uno al numero de fallos
                 n++;
             }else {
                 System.out.println("La contraseña es correcta");
             }
-        } while ( n<3 && contraseña!=respuesta);
+        } while ( n<3 && contraseña!=respuesta);// El bucle se repite mientras n<3 o contraseña=respuesta
     
         if (n==3){
        
