@@ -15,7 +15,7 @@ public class Tema3Ejercicio18 {
      */
     public static void main(String[] args) {
         int contraseña=123;
-        int respuesta,n;
+        int respuesta,n = 0;
         
         Scanner entrada = new Scanner(System.in);
         
@@ -29,8 +29,13 @@ public class Tema3Ejercicio18 {
             }else {
                 System.out.println("La contraseña es correcta");
             }
-        }while(contraseña==respuesta |& n==3);
-        
+        } while ( n<3 && contraseña!=respuesta);
+    
+        if (n==3){
+       
+        System.out.println("Contraseña incorrecta, has llegado al numero maximo de fallos");
     }
+    
+}
     
 }
