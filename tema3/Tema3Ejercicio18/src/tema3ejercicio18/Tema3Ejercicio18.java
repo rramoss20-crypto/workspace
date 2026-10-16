@@ -29,11 +29,10 @@ public class Tema3Ejercicio18 {
             }else {
                 System.out.println("La contraseña es correcta");
             }
-        } while ( n<3 && contraseña!=respuesta);// El bucle se repite mientras n<3 o contraseña=respuesta
+        } while ( n<3 && contraseña!=respuesta);// El bucle se repite mientras n<3 y contraseña=respuesta
     
         if (n==3){
-       
-        System.out.println("Contraseña incorrecta, has llegado al numero maximo de fallos");
+            System.out.println("Contraseña incorrecta, has llegado al numero maximo de fallos");
     }
     
 }
