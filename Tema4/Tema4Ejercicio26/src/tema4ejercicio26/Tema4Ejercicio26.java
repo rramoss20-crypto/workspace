@@ -27,9 +27,12 @@ public class Tema4Ejercicio26 {
     }
     public static boolean esPrimo (int num){//Método para comprobar si es primo
         boolean primo=true;
-        for(int i=2;i<num;i++){//Hago un bucle con for que comprueba todos los restos desde 2 hasta el numero anterior al del usuario
+        int i=2;
+        while(i<num&&primo){//Hago un bucle con for que comprueba todos los restos desde 2 hasta el numero anterior al del usuario
             if(num%i==0){
                 primo=false;
+            }else{
+                i++;
             }
         }
         return primo;
