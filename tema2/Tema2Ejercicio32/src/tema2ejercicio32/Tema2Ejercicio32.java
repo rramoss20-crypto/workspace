@@ -35,5 +35,5 @@ public class Tema2Ejercicio32 {
         System.out.println("130 euros hacen un total de: "+billeteCincuenta+ " billetes de 50 euros , "+ billeteveinte + " billetes de 20€, "+ billetediez+" billetes de\n" +
 "10 euros, "+billetecinco + " billetes de 5 € ,"+ monedados + " monedas de 2 € y "+ monedauno +" monedas de 1 €");//Expreso el resultado
     }
-    
+       
 }
